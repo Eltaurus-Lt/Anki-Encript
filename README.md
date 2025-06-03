@@ -12,13 +12,13 @@ Because the passwords are not explicitly saved anywhere, the Cards will only sho
 
 ## Encrypting a password
 
-- Put the cursor into the password Field in Anki Editor and click the `Encrypt` button
+1. Put the cursor into the password Field in Anki Editor and click the `Encrypt` button
 
     ![the "Encrypt" button in Anki Editor](https://github.com/user-attachments/assets/4d79482e-98d2-4173-b532-12ad935a375b)
-- Enter the password into the appearing window and click `Ok`
+2. Enter the password into the appearing window and click `Ok`
 
     ![Password input window](https://github.com/user-attachments/assets/c399c214-2437-4738-9251-8b712dc634fa)
-- The hash for the password will be added to the Card's Field
+3. The hash for the password will be added to the Card's Field
 
     ![Encrypted password](https://github.com/user-attachments/assets/ed913d6e-e76a-4575-8763-bea855b1e4bb)
 
