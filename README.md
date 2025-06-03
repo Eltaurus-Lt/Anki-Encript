@@ -7,7 +7,7 @@ on cursor hover:
 
 !["Encrypt" Cards](https://github.com/user-attachments/assets/cfb48248-e76b-4b71-b22b-7037c5acb264)
 
-The passwords are encrypted using the SHA-256 algorithm. It is [reasonably secure](https://en.wikipedia.org/wiki/Hash_function_security_summary), but (especially if passwords themselves are short, common, or otherwise weak) it is not 100% invulnerable. It is probably a good idea to only use this method for learning passwords to forums, web services, and other accounts that do not have sensitive information inside, but not for things like bank credentials or marketplaces with an attached credit card.
+The passwords are encrypted using the SHA-256 algorithm. It is [reasonably secure](https://en.wikipedia.org/wiki/Hash_function_security_summary), but (especially if passwords themselves are short, common, or otherwise weak) still not 100% invulnerable. It is probably a good idea to only use this method for learning passwords to forums, web services, and other accounts that do not have sensitive information inside, but not for things like bank credentials or marketplaces with an attached credit card.
 Because the passwords are not explicitly saved anywhere, the Cards will only show if the answer typed during the reviews is correct or not. They can't show where mistakes were made, as regular Anki typing Cards do, or otherwise remind you what the correct answer is. To make sure nothing essential will be lost, if a password is forgotten, it should be preserved with other methods outside Anki or be easily resettable. Setting all review intervals to the lowest values for the Deck with passwords will also help, keeping the retention as high as possible.
 
 ## Encrypting a password
