@@ -10,6 +10,17 @@ Temporarily revealing the hint and the typed answer on cursor hover:
 The passwords are encrypted using the SHA-256 algorithm. It is [reasonably secure](https://en.wikipedia.org/wiki/Hash_function_security_summary), but (especially if passwords themselves are short, common, or otherwise weak) still not 100% invulnerable. It is probably a good idea to only use this method for learning passwords to forums, web services, and other accounts that do not have sensitive information attached, but not for things like bank credentials or marketplaces with saved credit card data.
 Because the passwords are not explicitly saved anywhere, the Cards will only show if the answer typed during the reviews is correct or not. By design, they cannot detail specific errors in submitted answers, as regular Anki typing Cards do, or otherwise remind you what the correct answer is. To make sure nothing essential will be lost, if a password is forgotten, it should be preserved with other methods outside Anki or be easily resettable. Setting the [Leech action](https://docs.ankiweb.net/leeches.html#leeches) to `Tag Only` and all review intervals to the lowest values for a password Deck will also help, keeping the retention as high as possible.
 
+## Add-on Installation
+
+1. Select `Tools` in the top left menu of the desktop Anki app
+2. Go to `Add-ons`
+3. Click the `Get Add-ons` button
+4. Paste "501789684" (the Add-on's [ID on AnkiWeb](https://ankiweb.net/shared/info/501789684))
+5. Click `Ok`
+6. Restart Anki
+
+Alternatively, for manual installation, clone this repo into your `addons21` Anki folder
+
 ## Encrypting a password
 
 1. Put the cursor into the password Field in Anki Editor and click the `Encrypt` button
@@ -27,4 +38,4 @@ Because the passwords are not explicitly saved anywhere, the Cards will only sho
 The Encrypt button does not work from the Editor window used for creating new cards — only from the Editor for browsing existing Cards.
 
 
-<a href="https://ankiweb.net/shared/info/501789684?cb=1748987803892" target="_blank"><img src="https://i.imgur.com/CoCMk2T.png" alt="Rate the Add-on on AnkiWeb"  style="height: 37px"></a>
+<a href="https://ankiweb.net/shared/info/501789684" target="_blank"><img src="https://i.imgur.com/CoCMk2T.png" alt="Rate the Add-on on AnkiWeb"  style="height: 37px"></a>
