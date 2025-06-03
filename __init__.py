@@ -33,7 +33,7 @@ class EncryptDialog(QDialog):
     def __init__(self):
         super().__init__()
 
-        self.setWindowTitle("Enter password to encrypt")
+        self.setWindowTitle("Enter string to encrypt")
 
         layout = QVBoxLayout()
 
