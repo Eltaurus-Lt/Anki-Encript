@@ -25,3 +25,6 @@ Because the passwords are not explicitly saved anywhere, the Cards will only sho
 
 ### known issues
 The Encrypt button does not work from the Editor window used for creating new cards — only from the Editor for browsing existing Cards.
+
+
+<a href="https://ankiweb.net/shared/info/501789684?cb=1748987803892" target="_blank"><img src="https://i.imgur.com/CoCMk2T.png" alt="Rate the Add-on on AnkiWeb"  style="height: 37px"></a>
