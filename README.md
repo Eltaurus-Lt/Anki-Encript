@@ -1,4 +1,4 @@
-# Anki Encript
+# Anki Encrypt
 A set of tools for learning passwords using Anki without having to store them anywhere in the raw form. It includes an add-on to insert encrypted data into Anki Cards, and a JS script to check the correctness of typed answers. It can be used with stock Anki typing Cards or with any Cards using the [stock typing method](https://docs.ankiweb.net/templates/fields.html#checking-your-answer). There is also a dedicated Card Template, which can be imported from the `.apkg` file. It comes with additional features, such as concealing answers typed during reviews and adding hints displayed on hover, but otherwise remains minimalistic and lightweight to facilitate customization:
 
 !["Encrypt" Cards](https://github.com/user-attachments/assets/bfd0365c-b8f6-4451-a8c8-0009838a9834)
