@@ -38,5 +38,25 @@ Alternatively, for manual installation, clone this repo into your `addons21` Ank
 ### known issues
 The Encrypt button does not work from the Editor window used for creating new cards — only from the Editor for browsing existing Cards.
 
+## Copyright notice
+
+Copyright © 2023-2025 Eltaurus
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>.
+
+## Support
+
+If you found this repository useful, please consider supporting the development by rating it on AnkiWeb:
 
 <a href="https://ankiweb.net/shared/info/501789684" target="_blank"><img src="https://i.imgur.com/CoCMk2T.png" alt="Rate the Add-on on AnkiWeb"  style="height: 37px"></a>
