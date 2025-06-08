@@ -73,9 +73,12 @@ def Encrypt(editor):
     dialog = EncryptDialog()
     if not dialog.exec():
         return
+    
     password = dialog.get_password()
+    salt = os.urandom(16)
+    hashstring = hashlib.sha256(salt + password.encode('utf-8')).hexdigest()
 
-    note[field] = hashlib.sha256(password.encode('utf-8')).hexdigest()
+    note[field] = salt.hex() + hashstring
     mw.col.update_note(note)
     editor.loadNoteKeepingFocus()
 
